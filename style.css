@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+}
+
+hr {
+    border-color: #444;
+}
+
+body {
+    background-color: rgba(33, 33, 33, 1);
+}
+
+::placeholder {
+	color: black;
+    opacity: 1;
+}
+
+#title {
+    color: #e50914;
+    font-size: 50px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#searchbox {
+    margin-top: 25px;
+    
+    background-color: grey;
+    
+    border: 0px;
+    font-size: 15px;
+    
+    height: 32px;
+    width: 500px;
+}
+
+#go {
+    height: 32px;
+    width: 32px;
+}
+
+#signuplogo {
+    position: absolute;
+    top: 20px;
+    right: 14px;
+
+    height: 22px;
+    width: 57px;
+    
+    background-color: #e50914;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

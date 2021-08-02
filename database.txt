@@ -1,0 +1,12 @@
+database = videos
+
+tables = videos , users
+
+
+TABLES {
+
+users = fname , lname , email , password
+
+videos = v_title , v_address , v_author
+
+}
